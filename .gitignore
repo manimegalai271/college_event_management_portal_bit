@@ -1,0 +1,53 @@
+# =========================
+# React / Frontend
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# =========================
+# Spring Boot / Java
+# =========================
+
+college-event-backend/target/
+college-event-backend/.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# IntelliJ IDEA
+# =========================
+
+.idea/
+*.iml
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/*
+!.vscode/extensions.json
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+.activity-logs/
